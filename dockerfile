@@ -3,10 +3,10 @@ ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=$up3rSekRetPW123!
 
 WORKDIR /tmp
-COPY AdventureWorks2017.bak .
+COPY AdventureWorksLT2017.bak .
 COPY restore-backup.sql .
 
-RUN /opt/mssql/bin/sqlservr --accept-eula & sleep 10 \
+RUN /opt/mssql/bin/sqlservr --accept-eula & sleep 100 \
 && /opt/mssql-tools/bin/sqlcmd -S 127.0.0.1 -U SA -P "$up3rSekRetPW123!" -i /tmp/restore-backup.sql \
 && pkill sqlservr
 
