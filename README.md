@@ -16,7 +16,7 @@ docker run -p 11433:1433 -d restore-db:latest
 > **1433** - defalut sql server port
 ### How to stop and remove the container
 ```
-docker sto ID1
+docker stop ID1
 ```
 ```
 docker rm ID1
