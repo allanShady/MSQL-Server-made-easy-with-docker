@@ -1,5 +1,5 @@
 ## 💻 SQL made ease with Docker
-As a **developer** your primary job is solving problems by writing code and not dealing with tool like SQL SERVER, ... in alternative, you must automate the processes to deal with that tools and make it so sample as possible. This way you make sure that focus on programing.  
+As a **developer** your primary job is solving problems by writing code and sometimes you have to deal with tools like SQL Server, ... That's why you need to automate and make it simple the process of dealing with the third part tools. 
 <h1 align="center">
     <img alt="restored-db-sample-in-ssms" title="restored-db-sample-in-ssms" src=".github/sample.PNG" />
 </h1>
