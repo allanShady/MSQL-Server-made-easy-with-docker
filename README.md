@@ -13,7 +13,7 @@ docker build -t restore-db:latest .
 docker run -p 11433:1433 -d restore-db:latest 
 ```
 > **11433** - is the mapped port where SQL Server will be responding on your physical machine
-> **1433** - defalut sql server port inside the running container (if not changed)
+> **1433** - exposed and defalut sql server port inside the running container (if not changed)
 ### How to stop and remove the container
 ```
 docker stop ID1
